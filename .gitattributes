@@ -1,0 +1,4 @@
+*.cc linguist-language=c++
+*.cpp linguist-language=c++
+*.c linguist-language=c
+*.java linguist-language=Java
