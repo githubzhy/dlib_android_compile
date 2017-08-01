@@ -1,10 +1,12 @@
 # dlib_android_compile
 compile dlib for Android by android_cmake
 
+First, get android_camke from https://github.com/taka-no-me/android-cmake
 
-# cd <android-cmake-ROOT>/build/dlib_android/
-# vim build.sh 确认 ANDROID_NDK 和你自己的android ndk目录和版本是否一致
-# ./build.sh
+ubuntu 编译步骤：
+1, cd <android-cmake-ROOT>/build/dlib_android/
+2, vim build.sh 确认 ANDROID_NDK 和你自己的android ndk目录和版本是否一致
+3, ./build.sh
 
 PS:  编译成功后，将在 android-cmake/build/dlib_android/dlib目录下生成
 libdlib.a
