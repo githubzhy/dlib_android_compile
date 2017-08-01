@@ -1,0 +1,14 @@
+/home/ispeak-zhy/work/android-cmake/build/dlib_android/CMakeFiles/rebuild_cache.dir
+/home/ispeak-zhy/work/android-cmake/build/dlib_android/CMakeFiles/edit_cache.dir
+/home/ispeak-zhy/work/android-cmake/build/dlib_android/CMakeFiles/list_install_components.dir
+/home/ispeak-zhy/work/android-cmake/build/dlib_android/CMakeFiles/install/local.dir
+/home/ispeak-zhy/work/android-cmake/build/dlib_android/CMakeFiles/install/strip.dir
+/home/ispeak-zhy/work/android-cmake/build/dlib_android/CMakeFiles/install.dir
+/home/ispeak-zhy/work/android-cmake/build/dlib_android/dlib/CMakeFiles/rebuild_cache.dir
+/home/ispeak-zhy/work/android-cmake/build/dlib_android/dlib/CMakeFiles/edit_cache.dir
+/home/ispeak-zhy/work/android-cmake/build/dlib_android/dlib/CMakeFiles/dlib_shared.dir
+/home/ispeak-zhy/work/android-cmake/build/dlib_android/dlib/CMakeFiles/dlib.dir
+/home/ispeak-zhy/work/android-cmake/build/dlib_android/dlib/CMakeFiles/install/strip.dir
+/home/ispeak-zhy/work/android-cmake/build/dlib_android/dlib/CMakeFiles/install.dir
+/home/ispeak-zhy/work/android-cmake/build/dlib_android/dlib/CMakeFiles/install/local.dir
+/home/ispeak-zhy/work/android-cmake/build/dlib_android/dlib/CMakeFiles/list_install_components.dir

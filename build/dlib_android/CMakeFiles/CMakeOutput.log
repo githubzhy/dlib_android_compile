@@ -1,0 +1,100 @@
+The target system is: Android - 1 - armv7-a
+The host system is: Linux - 4.4.0-57-generic - x86_64
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/ispeak-zhy/work/android-cmake/build/dlib_android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f7b56/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f7b56.dir/build.make CMakeFiles/cmTC_f7b56.dir/build
+make[1]: Entering directory '/home/ispeak-zhy/work/android-cmake/build/dlib_android/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f7b56.dir/CheckIncludeFile.c.o
+/home/ispeak-zhy/android-ndk-r10c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -isystem /home/ispeak-zhy/android-ndk-r10c/platforms/android-8/arch-arm/usr/include -isystem /home/ispeak-zhy/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/ispeak-zhy/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /home/ispeak-zhy/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -fpic -Wno-psabi --sysroot=/home/ispeak-zhy/android-ndk-r10c/platforms/android-8/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack   -fPIE   -o CMakeFiles/cmTC_f7b56.dir/CheckIncludeFile.c.o   -c /home/ispeak-zhy/work/android-cmake/build/dlib_android/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f7b56
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7b56.dir/link.txt --verbose=1
+/home/ispeak-zhy/android-ndk-r10c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc  -fexceptions -fpic -Wno-psabi --sysroot=/home/ispeak-zhy/android-ndk-r10c/platforms/android-8/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack     -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc  CMakeFiles/cmTC_f7b56.dir/CheckIncludeFile.c.o -o cmTC_f7b56  -L/libs/armeabi-v7a   "/home/ispeak-zhy/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+make[1]: Leaving directory '/home/ispeak-zhy/work/android-cmake/build/dlib_android/CMakeFiles/CMakeTmp'
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: /home/ispeak-zhy/work/android-cmake/build/dlib_android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8aa5e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8aa5e.dir/build.make CMakeFiles/cmTC_8aa5e.dir/build
+make[1]: Entering directory '/home/ispeak-zhy/work/android-cmake/build/dlib_android/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8aa5e.dir/CheckSymbolExists.c.o
+/home/ispeak-zhy/android-ndk-r10c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -isystem /home/ispeak-zhy/android-ndk-r10c/platforms/android-8/arch-arm/usr/include -isystem /home/ispeak-zhy/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/ispeak-zhy/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /home/ispeak-zhy/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -fpic -Wno-psabi --sysroot=/home/ispeak-zhy/android-ndk-r10c/platforms/android-8/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack   -fPIE   -o CMakeFiles/cmTC_8aa5e.dir/CheckSymbolExists.c.o   -c /home/ispeak-zhy/work/android-cmake/build/dlib_android/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_8aa5e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8aa5e.dir/link.txt --verbose=1
+/home/ispeak-zhy/android-ndk-r10c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc  -fexceptions -fpic -Wno-psabi --sysroot=/home/ispeak-zhy/android-ndk-r10c/platforms/android-8/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack     -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc  CMakeFiles/cmTC_8aa5e.dir/CheckSymbolExists.c.o -o cmTC_8aa5e  -L/libs/armeabi-v7a   "/home/ispeak-zhy/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+make[1]: Leaving directory '/home/ispeak-zhy/work/android-cmake/build/dlib_android/CMakeFiles/CMakeTmp'
+
+File /home/ispeak-zhy/work/android-cmake/build/dlib_android/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/ispeak-zhy/work/android-cmake/build/dlib_android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b5138/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b5138.dir/build.make CMakeFiles/cmTC_b5138.dir/build
+make[1]: Entering directory '/home/ispeak-zhy/work/android-cmake/build/dlib_android/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b5138.dir/CheckIncludeFile.c.o
+/home/ispeak-zhy/android-ndk-r10c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -isystem /home/ispeak-zhy/android-ndk-r10c/platforms/android-8/arch-arm/usr/include -isystem /home/ispeak-zhy/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/ispeak-zhy/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /home/ispeak-zhy/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -fpic -Wno-psabi --sysroot=/home/ispeak-zhy/android-ndk-r10c/platforms/android-8/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack   -fPIE   -o CMakeFiles/cmTC_b5138.dir/CheckIncludeFile.c.o   -c /home/ispeak-zhy/work/android-cmake/build/dlib_android/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b5138
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5138.dir/link.txt --verbose=1
+/home/ispeak-zhy/android-ndk-r10c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc  -fexceptions -fpic -Wno-psabi --sysroot=/home/ispeak-zhy/android-ndk-r10c/platforms/android-8/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack     -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc  CMakeFiles/cmTC_b5138.dir/CheckIncludeFile.c.o -o cmTC_b5138  -L/libs/armeabi-v7a   "/home/ispeak-zhy/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+make[1]: Leaving directory '/home/ispeak-zhy/work/android-cmake/build/dlib_android/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/ispeak-zhy/work/android-cmake/build/dlib_android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_22b56/fast"
+/usr/bin/make -f CMakeFiles/cmTC_22b56.dir/build.make CMakeFiles/cmTC_22b56.dir/build
+make[1]: Entering directory '/home/ispeak-zhy/work/android-cmake/build/dlib_android/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_22b56.dir/CheckIncludeFile.c.o
+/home/ispeak-zhy/android-ndk-r10c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -isystem /home/ispeak-zhy/android-ndk-r10c/platforms/android-8/arch-arm/usr/include -isystem /home/ispeak-zhy/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/ispeak-zhy/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /home/ispeak-zhy/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -fpic -Wno-psabi --sysroot=/home/ispeak-zhy/android-ndk-r10c/platforms/android-8/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack   -fPIE   -o CMakeFiles/cmTC_22b56.dir/CheckIncludeFile.c.o   -c /home/ispeak-zhy/work/android-cmake/build/dlib_android/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_22b56
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22b56.dir/link.txt --verbose=1
+/home/ispeak-zhy/android-ndk-r10c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc  -fexceptions -fpic -Wno-psabi --sysroot=/home/ispeak-zhy/android-ndk-r10c/platforms/android-8/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack     -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc  CMakeFiles/cmTC_22b56.dir/CheckIncludeFile.c.o -o cmTC_22b56  -L/libs/armeabi-v7a   "/home/ispeak-zhy/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+make[1]: Leaving directory '/home/ispeak-zhy/work/android-cmake/build/dlib_android/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/ispeak-zhy/work/android-cmake/build/dlib_android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_da04b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_da04b.dir/build.make CMakeFiles/cmTC_da04b.dir/build
+make[1]: Entering directory '/home/ispeak-zhy/work/android-cmake/build/dlib_android/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_da04b.dir/CheckIncludeFile.c.o
+/home/ispeak-zhy/android-ndk-r10c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -isystem /home/ispeak-zhy/android-ndk-r10c/platforms/android-8/arch-arm/usr/include -isystem /home/ispeak-zhy/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/ispeak-zhy/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /home/ispeak-zhy/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -fpic -Wno-psabi --sysroot=/home/ispeak-zhy/android-ndk-r10c/platforms/android-8/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack   -fPIE   -o CMakeFiles/cmTC_da04b.dir/CheckIncludeFile.c.o   -c /home/ispeak-zhy/work/android-cmake/build/dlib_android/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_da04b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da04b.dir/link.txt --verbose=1
+/home/ispeak-zhy/android-ndk-r10c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc  -fexceptions -fpic -Wno-psabi --sysroot=/home/ispeak-zhy/android-ndk-r10c/platforms/android-8/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack     -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc  CMakeFiles/cmTC_da04b.dir/CheckIncludeFile.c.o -o cmTC_da04b  -L/libs/armeabi-v7a   "/home/ispeak-zhy/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+make[1]: Leaving directory '/home/ispeak-zhy/work/android-cmake/build/dlib_android/CMakeFiles/CMakeTmp'
+
+
+Determining size of void* passed with the following output:
+Change Dir: /home/ispeak-zhy/work/android-cmake/build/dlib_android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e1171/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e1171.dir/build.make CMakeFiles/cmTC_e1171.dir/build
+make[1]: Entering directory '/home/ispeak-zhy/work/android-cmake/build/dlib_android/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e1171.dir/SIZE_OF_VOID_PTR.c.o
+/home/ispeak-zhy/android-ndk-r10c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -isystem /home/ispeak-zhy/android-ndk-r10c/platforms/android-8/arch-arm/usr/include -isystem /home/ispeak-zhy/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/ispeak-zhy/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /home/ispeak-zhy/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -fpic -Wno-psabi --sysroot=/home/ispeak-zhy/android-ndk-r10c/platforms/android-8/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack   -fPIE   -o CMakeFiles/cmTC_e1171.dir/SIZE_OF_VOID_PTR.c.o   -c /home/ispeak-zhy/work/android-cmake/build/dlib_android/CMakeFiles/CheckTypeSize/SIZE_OF_VOID_PTR.c
+Linking C executable cmTC_e1171
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1171.dir/link.txt --verbose=1
+/home/ispeak-zhy/android-ndk-r10c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc  -fexceptions -fpic -Wno-psabi --sysroot=/home/ispeak-zhy/android-ndk-r10c/platforms/android-8/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack     -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc  CMakeFiles/cmTC_e1171.dir/SIZE_OF_VOID_PTR.c.o -o cmTC_e1171  -L/libs/armeabi-v7a   "/home/ispeak-zhy/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+make[1]: Leaving directory '/home/ispeak-zhy/work/android-cmake/build/dlib_android/CMakeFiles/CMakeTmp'
+
+
